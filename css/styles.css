@@ -71,6 +71,7 @@ header {
   /* background-color: #2e2f42; */
   background: var(--navyblue);
 }
+
 .hero-word {
   color: #fff;
   font-size: 56px;
@@ -92,10 +93,11 @@ header {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 .hero-button:active {
-  color: #404BBF;
+  color: #404bbf;
+}
 /* 3 section accomplishments-section */
 .accomplishments-section {
   background: #fff;
@@ -106,7 +108,7 @@ header {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color:#2e2f42;
+  color: #2e2f42;
 }
 .level-p {
   color: var(--slate);
@@ -141,22 +143,25 @@ header {
 .footer-section {
   background: var(--navyblue);
 }
+
 .footer-p {
   color: var(--cloud);
-  /* Body */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.logo-studio-footer {
-  color: var(--cloud);
-  font-family: Raleway;
+.logo-web-footer {
+  color: var(--second-color);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
-  letter-spacing: -0.03em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.logo-studio-footer {
+  color: var(--cloud);
 }
