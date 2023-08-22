@@ -28,16 +28,17 @@ header {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   font-style: normal;
 }
 
 .logo-studio,
 .logo-web {
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: var(--first-color);
@@ -59,10 +60,10 @@ header {
 }
 
 .grey:hover,
-.gray:focus {
+.grey:focus {
   color: #404bbf;
 }
-.gray:active {
+.grey:active {
   color: #404bbf;
 }
 /* main secction */
@@ -75,8 +76,9 @@ header {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.071; /* 107.143% */
+  line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero-button {
   background: #4d5ae5;
@@ -86,18 +88,25 @@ header {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: -0.04em;
+  letter-spacing: 0.04em;
 }
+.hero-button:hover,
+.hero-button:focus {
+  color: #404BBF;
+}
+.hero-button:active {
+  color: #404BBF;
 /* 3 section accomplishments-section */
 .accomplishments-section {
   background: #fff;
 }
-. .head-level3 {
+.head-level3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+  color:#2e2f42;
 }
 .level-p {
   color: var(--slate);
@@ -106,7 +115,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 /* 4 section Our Team */
