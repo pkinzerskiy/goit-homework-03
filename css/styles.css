@@ -39,7 +39,7 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-color);
 }
@@ -93,7 +93,7 @@ header {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .hero-button:active {
   color: #404bbf;
@@ -102,7 +102,7 @@ header {
 .accomplishments-section {
   background: #fff;
 }
-.head-level3 {
+.head-level-three {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
@@ -124,8 +124,8 @@ header {
 .section-team {
   background: #f4f4fd;
 }
-.head-level2 {
-  /* color: #2e2f42; */
+.head-level-two {
+  color: #2e2f42;
   /* Header 2 */
 
   font-size: 36px;
