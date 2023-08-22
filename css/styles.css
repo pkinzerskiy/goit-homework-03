@@ -18,9 +18,8 @@ button {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--first-color);
-  /* background-color: #f4f4fd; */
-  text-decoration: none;
+  color: #434455;
+  background-color: #ffffff;
 }
 header {
   background-color: #fff;
