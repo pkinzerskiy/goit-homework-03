@@ -72,7 +72,6 @@ header {
 }
 /* main secction */
 .hero-section {
-  /* background-color: #2e2f42; */
   background: #2e2f42;
 }
 
@@ -87,9 +86,7 @@ header {
 }
 .hero-button {
   background: #4d5ae5;
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
   color: #fff;
-  /* Button Text */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
