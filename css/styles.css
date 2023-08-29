@@ -58,19 +58,16 @@ header {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* border: 1px solid black; */
 }
 
 .header-section {
   border-bottom: 1px solid var(--cornflower);
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 
 .page-header-container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-nav {
@@ -338,6 +335,7 @@ header {
   align-items: flex-start;
   /* row-gap: 32px; */
   flex-shrink: 0;
+  margin-bottom: 8px;
 }
 
 .div-portfolio-item {
@@ -346,7 +344,7 @@ header {
   flex-direction: column;
   justify-content: stretch;
   align-items: flex-start;
-  gap: 8px;
+  /* gap: 8px; */
   align-self: stretch;
   border: 1px solid var(--cornflower);
   border-top: none;
