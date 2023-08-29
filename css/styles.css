@@ -166,6 +166,7 @@ hero-button:active,
 /* 3 section accomplishments-section */
 .accomplishments-section {
   background: var(--main-backgrnd);
+  padding-top: 188px; та padding-bottom: 188px;
   /* text-align: center;  */
 }
 .accomplishments-list {
@@ -240,6 +241,8 @@ hero-button:active,
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-team-style {
@@ -252,8 +255,9 @@ hero-button:active,
 }
 
 .list-team-item {
-  width: calc((100% - 126px) / 4);
+  width: calc((100% - 24px * 3) / 4);
   background-color: var(--main-backgrnd);
+  margin-bottom: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -283,7 +287,14 @@ hero-button:active,
 /* section  */
 .portfolio-section {
   background: var(--main-backgrnd);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  /* border: 1px black solid; */
 }
+.portfolio-two-level {
+  margin-bottom: 72px;
+}
+
 .portfolio-list {
   display: flex;
   column-gap: 24px;
@@ -294,25 +305,26 @@ hero-button:active,
 
 .portfolio-item {
   max-width: calc((100% - 48px) / 3);
-  border: 1px red solid;
   height: 420px;
   display: flex;
   padding-bottom: 0px;
   flex-direction: column;
   align-items: flex-start;
-  row-gap: 32px;
+  /* row-gap: 32px; */
   flex-shrink: 0;
-  border: 1px solid var(--cornflower);
 }
 
 .div-portfolio-item {
   display: flex;
-  padding: 0px 16px;
+  padding: 32px 16px;
   flex-direction: column;
   justify-content: stretch;
   align-items: flex-start;
   gap: 8px;
   align-self: stretch;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .portfolio-list-img {
@@ -326,15 +338,14 @@ hero-button:active,
 .footer-section {
   background: var(--first-color);
   width: 1440px;
-  /* height: 312px; */
-  margin-top: 120px;
+
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .footer-style {
-  padding-top: 101px;
 }
 
 .footer-p {
@@ -348,7 +359,6 @@ hero-button:active,
 
 .footer-p-style {
   display: flex;
-  margin-top: 17px;
   width: 264px;
 }
 
@@ -361,6 +371,8 @@ hero-button:active,
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-studio-footer {
   color: var(--cloud);
