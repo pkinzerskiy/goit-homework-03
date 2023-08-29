@@ -168,7 +168,6 @@ hero-button:active,
   background: var(--main-backgrnd);
   padding-top: 188px;
   padding-bottom: 188px;
-  /* text-align: center;  */
 }
 .accomplishments-list {
   display: flex;
