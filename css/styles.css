@@ -196,7 +196,7 @@ header {
 
 .accomplishments-item {
   display: flex;
-  width: calc(100% - 72px) / 4;
+  width: calc((100% - 72px) / 4);
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
@@ -269,7 +269,7 @@ header {
 
 .list-team-item {
   display: flex;
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4); */
   background-color: var(--main-backgrnd);
   margin-bottom: 8px;
   flex-direction: column;
