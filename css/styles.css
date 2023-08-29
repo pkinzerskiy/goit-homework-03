@@ -187,25 +187,23 @@ header {
 /* 3 section accomplishments-section */
 .accomplishments-section {
   background: var(--main-backgrnd);
-  padding-top: 188px;
-  padding-bottom: 188px;
+   padding-top: 120px;
+   padding-bottom: 120px;
 }
 .accomplishments-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
   /* align-items: flex-start;  */
 }
 
 .accomplishments-list-item {
-  width: calc(100% - 72px) / 4;
+  
 }
 
 .accomplishments-item {
   display: flex;
-
+  width: calc(100% - 72px) / 4;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
@@ -263,11 +261,12 @@ header {
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-team-style {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  
 }
 
 .team-list {
@@ -298,7 +297,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 8px;
+  /* row-gap: 8px; */
+  padding-top: 32px; 
+  padding-bottom: 32px;
 }
 
 .img-team {
