@@ -61,15 +61,21 @@ header {
   /* border: 1px solid black; */
 }
 
+.header-section {
+  border-bottom: 1px solid var(--cornflower);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .page-header-container {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid var(--cornflower);
 }
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .header-nav-ul {
   /* margin-left: 75px; */
@@ -81,6 +87,10 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+}
+.header-nav-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-studio,
@@ -95,6 +105,7 @@ header {
   color: var(--first-color);
   margin-right: 76px;
 }
+
 .logo-web {
   color: var(--second-color);
   display: block;
