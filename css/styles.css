@@ -166,7 +166,8 @@ hero-button:active,
 /* 3 section accomplishments-section */
 .accomplishments-section {
   background: var(--main-backgrnd);
-  padding-top: 188px; та padding-bottom: 188px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   /* text-align: center;  */
 }
 .accomplishments-list {
