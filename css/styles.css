@@ -138,7 +138,7 @@ header {
 /* main secction */
 .hero-section {
   background: var(--first-color);
-  /* max-width: 1440px; */
+  width: 1440px; 
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
