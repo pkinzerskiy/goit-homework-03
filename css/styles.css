@@ -128,6 +128,8 @@ header {
 .address-menu-ul {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .grey:hover,
@@ -141,7 +143,9 @@ header {
 /* main secction */
 .hero-section {
   background: var(--first-color);
-  max-width: 1440px;
+  /* max-width: 1440px; */
+  padding-top: 188px;
+  padding-bottom: 188px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -149,12 +153,15 @@ header {
 
 .hero-word {
   color: var(--main-backgrnd);
+  max-width: 496px;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   padding-top: 188px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .hero-button {
   background: var(--second-color);
@@ -163,11 +170,19 @@ header {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 64px;
   margin-bottom: 187px;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */ */ */
+
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
-hero-button:active,
+.hero-button:active,
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
