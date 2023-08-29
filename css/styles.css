@@ -301,6 +301,10 @@ header {
   padding-top: 32px; 
   padding-bottom: 32px;
 }
+.team-p,
+.team-three-level {
+   text-align: center;
+}
 
 .img-team {
   object-fit: cover;
