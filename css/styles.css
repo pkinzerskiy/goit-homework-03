@@ -94,6 +94,9 @@ body {
   color: var(--first-color);
   padding-top: 24px;
   padding-bottom: 24px;
+  line-height: 1.5; /* 150% */
+  font-size: 16px;
+  font-weight: 500;
   display: block;
 }
 /* address section menu */
