@@ -180,11 +180,7 @@ body {
 }
 
 .accomplishments-item {
-  /* display: flex; */
   width: calc((100% - 72px) / 4);
-  /* flex-direction: column; */
-  /* align-items: flex-start; */
-  /* gap: 8px; */
 }
 
 .visually-hidden {
@@ -235,9 +231,6 @@ body {
 /* 4 section Our Team */
 .section-team {
   background: var(--cloud);
-  /* width: 1440px;
-  margin-left: auto;
-  margin-right: auto; */
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -307,9 +300,6 @@ body {
 /*   Footer section  */
 .footer-section {
   background: var(--first-color);
-  /* width: 1440px; */
-  /* margin-right: auto; */
-  /* margin-left: auto; */
   padding-bottom: 100px;
   padding-top: 100px;
 }
